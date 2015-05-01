@@ -42,7 +42,7 @@
         if (typeof chat === "undefined") {
             API.chatLog("There is a chat text missing.");
             console.log("There is a chat text missing.");
-            return "[Error] No text message found.";
+            return "Erreur.";
         }
         var lit = '%%';
         for (var prop in obj) {
@@ -1748,26 +1748,26 @@
                 command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
-                cookies: ['has given you a chocolate chip cookie!',
-                    'has given you a soft homemade oatmeal cookie!',
-                    'has given you a plain, dry, old cookie. It was the last one in the bag. Gross.',
-                    'gives you a sugar cookie. What, no frosting and sprinkles? 0/10 would not touch.',
-                    'gives you a chocolate chip cookie. Oh wait, those are raisins. Bleck!',
-                    'gives you an enormous cookie. Poking it gives you more cookies. Weird.',
-                    'gives you a fortune cookie. It reads "Why aren\'t you working on any projects?"',
-                    'gives you a fortune cookie. It reads "Give that special someone a compliment"',
-                    'gives you a fortune cookie. It reads "Take a risk!"',
-                    'gives you a fortune cookie. It reads "Go outside."',
-                    'gives you a fortune cookie. It reads "Don\'t forget to eat your veggies!"',
-                    'gives you a fortune cookie. It reads "Do you even lift?"',
-                    'gives you a fortune cookie. It reads "m808 pls"',
-                    'gives you a fortune cookie. It reads "If you move your hips, you\'ll get all the ladies."',
-                    'gives you a fortune cookie. It reads "I love you."',
-                    'gives you a Golden Cookie. You can\'t eat it because it is made of gold. Dammit.',
-                    'gives you an Oreo cookie with a glass of milk!',
-                    'gives you a rainbow cookie made with love :heart:',
-                    'gives you an old cookie that was left out in the rain, it\'s moldy.',
-                    'bakes you fresh cookies, it smells amazing.'
+                cookies: ['t\'a donné un .... Ah bah non, il l\'a mangé ! ',
+                    't\'a donné un cookie encore tout chaud.',
+                    't\'a donné le dernier cookie au fond du paquet... Berk.',
+                    't\'a donné un cookie. Quoi ? Même pas de glaçage ? Même avec un gant Mappa j\'y touche pas...',
+                    't\'a donné un cookie... avec des raisins ? BERK !',
+                    't\'a donné un cookie un énorme cookie alien. Quand tu le touches il crée des mini-cookies ... étrange.',
+                    't\'a donné un Fortune Cookie. Il dit "Tu n\'aurait pas grossis un peu ?" ',
+                    't\'a donné un Fortune Cookie. Il dit "Il a été bien gentil de t\'offrir un cookie... "',
+                    't\'a donné un Fortune Cookie. Il dit "Jemiscor te regarde dormir tout les soirs.."',
+                    't\'a donné un Fortune Cookie. Il dit "Sors un peu, ça te fera du bien."',
+                    't\'a donné un Fortune Cookie. Il dit "Cette phrase est fausse."',
+                    't\'a donné un Fortune Cookie. Il dit "Es-ce que tu fais un peu du muscu au moins ?"',
+                    't\'a donné un Fortune Cookie. Il dit "Ce message s\'auto détruira dans 3... 2... 1... BOUM !"',
+                    't\'a donné un Fortune Cookie. Il dit "Tu devrais te méfier de la personne qui t\'as donné ce fortune cookie ... "',
+                    't\'a donné un Fortune Cookie. Il dit "Je t\'aime beaucoup."',
+                    't\'a donné un cookie en or. Tu ne peux pas le manger ... Merde !',
+                    't\'a donné un Oreo avec un verre de lait ! Trop cool !',
+                    't\'a donné un cookie fait avec de l\'amour :heart:',
+                    't\'a donné un cookie qui trainait sous la pluie ... Il est mou.',
+                    'ne sais pas cuisiner, donc désolé mais pas de cookie...'
                 ],
                 getCookie: function () {
                     var c = Math.floor(Math.random() * this.cookies.length);
