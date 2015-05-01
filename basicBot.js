@@ -1753,7 +1753,7 @@
                     't\'a donné le dernier cookie au fond du paquet... Berk.',
                     't\'a donné un cookie. Quoi ? Même pas de glaçage ? Même avec un gant Mappa j\'y touche pas...',
                     't\'a donné un cookie... avec des raisins ? BERK !',
-                    't\'a donné un cookie un énorme cookie alien. Quand tu le touches il crée des mini-cookies ... étrange.',
+                    't\'a donné un énorme cookie alien. Quand tu le touches il crée des mini-cookies ... étrange.',
                     't\'a donné un Fortune Cookie. Il dit "Tu n\'aurait pas grossis un peu ?" ',
                     't\'a donné un Fortune Cookie. Il dit "Il a été bien gentil de t\'offrir un cookie... "',
                     't\'a donné un Fortune Cookie. Il dit "Jemiscor te regarde dormir tout les soirs.."',
