@@ -179,7 +179,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.3.5",
+        version: "New 1.0",
         status: false,
         name: "Jemiscor",
         loggedInID: null,
@@ -1766,7 +1766,7 @@
                     't\'a donné un cookie en or. Tu ne peux pas le manger ... Merde !',
                     't\'a donné un Oreo avec un verre de lait ! Trop cool !',
                     't\'a donné un cookie fait avec de l\'amour :heart:',
-                    't\'a donné un cookie qui trainait sous la pluie ... Il est mou.',
+                    't\'a donné un cookie djihadiste.... Il explose dans ta main !',
                     'ne sais pas cuisiner, donc désolé mais pas de cookie...'
                 ],
                 getCookie: function () {
